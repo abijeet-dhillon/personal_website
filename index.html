@@ -11,35 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body class="main-content">
-    <header class="section s1 header active">
+    <header class="section s1 header active" id="home">
         
     </header>
     <main>
-        <section class="section s2 about">
+        <section class="section s2 about" id="about">
         </section>
-        <section class="section s3 education">
+        <section class="section s3 education" id="education">
         </section>
-        <section class="section s4 portfolio">
+        <section class="section s4 portfolio" id="portfolio">
         </section>
-        <section class="section s5 contact">
+        <section class="section s5 contact" id="contact">
         </section>
     </main>
     <div class="controls">
-        <div class="control c1 active-btn">
+        <div class="control c1 active-btn" data-id="home">
             <i class="fas fa-home"></i>
         </div>
         <div class="control c2">
-            <i class="fas fa-user"></i>
+            <i class="fas fa-user" data-id="about"></i>
         </div>
         <div class="control c3">
-            <i class="fas fa-university"></i>
+            <i class="fas fa-university" data-id="education"></i>
         </div>
         <div class="control c4">
-            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-laptop-code" data-id="portfolio"></i>
         </div>
         <div class="control c5">
-            <i class="fas fa-envelope"></i>
+            <i class="fas fa-envelope" data-id="contact"></i>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

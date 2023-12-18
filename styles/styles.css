@@ -6,8 +6,8 @@
 }
 
 :root {
-    --colour-primary: #1d1d1d;
-    --colour-secondary: #27ae60;
+    --colour-primary: #000;
+    --colour-secondary: #b3001e;
     --colour-white: #ffffff;
     --colour-black: #000000;
     --colour-grey0: #f8f8f8;
@@ -17,6 +17,7 @@
     --colour-grey4: #454e56;
     --colour-grey5: #2a2e35;
     --colour-grey6: #12181b;
+    --box-shadow-1: 0px 0px 40px rgb(255, 255, 255);
     --br-sm-2: 14px;
 }
 
@@ -25,7 +26,7 @@ body {
     font-size: 1rem;
     background-color: var(--colour-primary);
     color: var(--colour-white);
-    transition: all .6s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 a {
@@ -52,7 +53,7 @@ section {
 
 .section {
     transform: translateY(-100%);
-    transition: all 0.6 ease-in-out;
+    transition: all 0.3 ease-in-out;
     background-color: var(--colour-primary);
 }
 
@@ -79,4 +80,41 @@ section {
 .s5 {
     display: none;
     transform: translateY(0) scale(1);
+}
+
+.controls {
+    position: fixed;
+    z-index: 10;
+    top: 2%;
+    right: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.control {
+    padding: 1.3rem;
+    cursor: pointer;
+    background-color: var(--colour-grey4);
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    box-shadow: var(--box-shadow-1);
+}
+
+i {
+    font-size: 1.6rem;
+    color: var(--colour-white) !important;
+    pointer-events: none;
+}
+
+.active-btn {
+    background-color: var(--colour-secondary) !important;
+    transition: all 0.3s ease-in-out;
 }
