@@ -1,4 +1,4 @@
-# My Portfolio
+# My Website
 
 Welcome to my personal website, a place for visitors to view my passion for computer science through a showcase of my completed and upcoming projects.
 
