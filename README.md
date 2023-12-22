@@ -14,6 +14,9 @@ Welcome to my personal website, a place for visitors to view my passion for comp
 - **Contact and Collaboration:**
   - Connect with me easily through a simple contact form, facilitating communication for potential employment opportunities and inquiries.
 
+- **Hosted on GitHub:**
+  - Hosted on ...
+
 ## Development Details:
 
 - **Language:** HTML, CSS, JavaScript
