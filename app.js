@@ -5,7 +5,7 @@ const allSections = document.querySelector('.main-content');
 
 
 // Function to handle transitions between sections
-function Transition() {
+function transition() {
     for(let i  = 0; i < sectionControl.length; i++) {
         sectionControl[i].addEventListener('click', function() {
             let currentControl = document.querySelectorAll('.active-btn');
@@ -32,4 +32,5 @@ function Transition() {
     })
 }
 // Call function to handle transitions between sections
-Transition();
+transition();
+
