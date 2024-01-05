@@ -20,7 +20,7 @@ Welcome to my personal website, a place for visitors to view my passion for comp
 ## Development Details:
 
 - **Language:** HTML, CSS, JavaScript
-- **Completion Date:** December 2023
+- **Completion Date:** January 2024
 
 Visit my website! [link website]
 
