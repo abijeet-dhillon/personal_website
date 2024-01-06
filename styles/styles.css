@@ -190,6 +190,24 @@ margin: 1.5rem 0;
 line-height: 2rem;
 }
 
+.btn-con .send-btn {
+    font-size: 1rem;
+    border-radius: 30px;    
+    font-weight: 600;
+    position: relative;
+    border: 1.5px solid var(--colour-tertiary);
+    background-color: var(--colour-primary);
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btn-con .send-btn .btn-text {
+    padding: 0.6rem;
+    color: var(--colour-secondary);
+}
+
 .btn-con .main-btn {
 border-radius: 30px;    
 font-weight: 600;
@@ -204,7 +222,7 @@ overflow: hidden;
 .btn-con .main-btn::before {
 content: '';
 position: absolute;
-top: 0;
+top: 0rem;
 right: 0;
 transform: translateX(100%);
 z-index: -1;
@@ -569,6 +587,12 @@ opacity: 1;
 transform: scale(1);
 }
 
+.s3 .btn-con {
+align-items: center;
+justify-content: space-around;
+padding-top: 1rem;
+}
+
 .s4 .contact-content-con {
 display: flex;
 padding-top: 3.5rem;
@@ -619,22 +643,22 @@ margin: 0 0.4rem;
 transition: all 0.4s ease-in-out;
 }
 
-.s4 .contact-content-con .left-contact .contact-icon {
+.s4 .contact-content-con .left-contact .contact-icons {
 display: flex;
 margin-top: 2rem;
 }
 
-.s4 .contact-content-con .left-contact .contact-icon a {
+.s4 .contact-content-con .left-contact .contact-icons i {
 display: flex;
 align-items: center;
-color: var(--colour-tertiary);
-background-color: var(--color-secondary);
+font-size: 1.3rem;
+background-color: var(--colour-tertiary);
 cursor: pointer;
 justify-content: center;
-width: 50px;
-height: 50px;
+width: 30px;
+height: 30px;
 border-radius: 50%;
-margin: 0 0.4rem;
+margin: 0 4rem;
 transition: all 0.4s ease-in-out;
 }
 
@@ -644,13 +668,6 @@ background-color: var(--color-secondary);
 
 .s4 .contact-content-con .left-contact .contact-icon a:hover i {
 color: var(--color-primary);
-}
-
-.s4 .contact-content-con .left-contact .contact-icon a i {
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 1.3rem;
 }
 
 .s4 .contact-content-con .right-contact {
@@ -685,3 +702,16 @@ display: flex;
 margin-left: 1.5rem;
 }
 
+.s4 .btn-con {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.s4 #msg {
+color: var(--colour-secondary);
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding-top: 1rem;
+}
