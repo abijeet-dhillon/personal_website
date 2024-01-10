@@ -715,3 +715,11 @@ align-items: center;
 justify-content: space-around;
 padding-top: 1rem;
 }
+
+.hint {
+    color: var(--colour-secondary);
+    font-weight: 200;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
