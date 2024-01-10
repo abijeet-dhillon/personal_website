@@ -150,7 +150,6 @@ position: absolute;
 left: 0;
 top: 0;
 z-index: -1;
-/* clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%); */
 clip-path: polygon(20% 14%, 100% 14%, 100% 100%, 0% 100%);
 }
 
